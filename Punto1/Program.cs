@@ -58,16 +58,14 @@ namespace Punto1
             Console.Write("La venta que genero la mayor comision fue de: " + mayorcomision);
             Console.Write("Promedio de comisiones por venta: " + (totalcomisiones / venta1, venta2, venta3));
 
-
-
-
-
-
-
-
-
-
-
+            if (alcanzoobjetivo)
+            {
+                Console.Write("Ganaste la bonificacion por un valor de: " + bonificacion);
+            }
+            else
+            {
+                Console.Write("No ganaste la bonificacion, trabaja duro para adquirir la bonificacion el proximo mes");
+            }
 
         }
     }
