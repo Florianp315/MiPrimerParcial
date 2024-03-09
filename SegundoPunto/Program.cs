@@ -7,18 +7,15 @@ namespace SegundoPunto
         static void Main(string[] args)
         {
             //Declaracion de variable
-            int velocidadtren1;
-            int velocidadtren2;
-            int horasalidatren1;   
-            int horasalidatren2;
+            int velocidadtren1 = 80;
+            int velocidadtren2 = 100;
+            int horasalidatren1 = 10;
+            int horasalidatren2 = 11;
 
 
-            //Asignacion de Valores
-            velocidadtren1 = 80;
-            velocidadtren2 = 100;
-            horasalidatren1 = 10;
-            horasalidatren2 = 11
 
+
+           
 
         }
     }
