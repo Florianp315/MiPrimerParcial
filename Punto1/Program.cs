@@ -28,10 +28,24 @@ namespace Punto1
             venta3 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("");
 
-            //Calculo de cmisiones y total de ventas
+            //Calculo de comisiones y total de ventas
             for (int i = 0; i < venta1; i++);
             for (int i = 0; i < venta2; i++);
             for (int i = 0; i < venta3; i++);
+            {
+                double comision = venta1 * 0.1;
+                double comision = venta2 * 0.1;
+                double comision = venta3 * 0.1;
+                totalcomisiones += comision;
+                if (comision > mayorcomision);
+                {
+                    mayorcomision = comision;
+                }
+            }
+
+
+
+
 
 
 
