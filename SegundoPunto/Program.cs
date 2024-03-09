@@ -16,7 +16,7 @@ namespace SegundoPunto
             double tiempotranscurrido = horasalidatren2 - horasalidatren1;
 
             //Calculo de la distancia recorrida por el primer tren durante este tiempo en KM
-            double distanciarecorridatren1 = velocidadtren1 * velocidadtren2;
+            double distanciarecorridatren1 = velocidadtren1 * tiempotranscurrido;
 
             // Cálculo del tiempo necesario para que el segundo tren alcance al primero
             double tiempoalcanzar = distanciarecorridatren1 / (velocidadtren2 - velocidadtren1);
