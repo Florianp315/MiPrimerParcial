@@ -11,7 +11,14 @@ namespace SegundoPunto
             int velocidadtren2;
             int horasalidatren1;   
             int horasalidatren2;
-            
+
+
+            //Asignacion de Valores
+            velocidadtren1 = 80;
+            velocidadtren2 = 100;
+            horasalidatren1 = 10;
+            horasalidatren2 = 11
+
 
         }
     }
