@@ -43,6 +43,17 @@ namespace Punto1
                 }
             }
 
+            //Calculando total del mes 
+            double totalmes = sueldobase + totalcomisiones;
+
+            //Verificar si se alcanza el objetivo del mes
+            double objetivo = 1000000;
+            bool alcanzoobjetivo = venta1 + venta2 + venta3 >= objetivo;
+            double bonificacion = alcanzoobjetivo ? 100000 : 0;
+
+
+
+
 
 
 
