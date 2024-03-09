@@ -29,19 +29,24 @@ namespace Punto1
             Console.WriteLine("");
 
             //Calculo de comisiones y total de ventas
-            for (int i = 0; i < venta1; i++);
-            for (int i = 0; i < venta2; i++);
-            for (int i = 0; i < venta3; i++);
+            double comision = venta1 * 0.1;
+            totalcomisiones += comision;
+            mayorcomision = comision;
+
+            comision = venta2 * 0.1;
+            totalcomisiones += comision;
+            if (comision > mayorcomision)
             {
-                double comision = venta1 * 0.1;
-                double comision = venta2 * 0.1;
-                double comision = venta3 * 0.1;
-                totalcomisiones += comision;
-                if (comision > mayorcomision);
-                {
-                    mayorcomision = comision;
-                }
+                mayorcomision = comision;
             }
+
+            comision = venta3 * 0.1;
+            totalcomisiones += comision;
+            if (comision > mayorcomision)
+            {
+                mayorcomision = comision;
+            }
+
 
             //Calculando total del mes 
             double totalmes = sueldobase + totalcomisiones;
@@ -56,7 +61,7 @@ namespace Punto1
             Console.Write("Dinero por comisiones: " + totalcomisiones);
             Console.Write("Total Dinero recibido en el mes: " + (totalmes + bonificacion));
             Console.Write("La venta que genero la mayor comision fue de: " + mayorcomision);
-            Console.Write("Promedio de comisiones por venta: " + (totalcomisiones / venta1, venta2, venta3));
+            Console.Write("Promedio de comisiones por venta: " + (totalcomisiones / 3));
 
             if (alcanzoobjetivo)
             {
