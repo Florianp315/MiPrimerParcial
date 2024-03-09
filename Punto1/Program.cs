@@ -12,8 +12,8 @@ namespace Punto1
             //Declaracion de Variables
             double sueldobase = 800000;
             double venta1, venta2, venta3;
-            double totalcomisiones;
-            double mayorcomision;
+            double totalcomisiones = 0;
+            double mayorcomision =0;
 
             //Entrada de datos
             Console.Write("Ingresa el valor de la primera venta del mes:");
