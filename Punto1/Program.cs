@@ -58,18 +58,18 @@ namespace Punto1
 
             //Mostrar Resultado en pantalla
 
-            Console.Write("Dinero por comisiones: " + totalcomisiones);
-            Console.Write("Total Dinero recibido en el mes: " + (totalmes + bonificacion));
-            Console.Write("La venta que genero la mayor comision fue de: " + mayorcomision);
-            Console.Write("Promedio de comisiones por venta: " + (totalcomisiones / 3));
+            Console.WriteLine("Dinero por comisiones: " + totalcomisiones);
+            Console.WriteLine("Total Dinero recibido en el mes: " + (totalmes + bonificacion));
+            Console.WriteLine("La venta que genero la mayor comision fue de: " + mayorcomision);
+            Console.WriteLine("Promedio de comisiones por venta: " + (totalcomisiones / 3));
 
             if (alcanzoobjetivo)
             {
-                Console.Write("Ganaste la bonificacion por un valor de: " + bonificacion);
+                Console.WriteLine("Ganaste la bonificacion por un valor de: " + bonificacion);
             }
             else
             {
-                Console.Write("No ganaste la bonificacion, trabaja duro para adquirir la bonificacion el proximo mes");
+                Console.WriteLine("No ganaste la bonificacion, trabaja duro para adquirir la bonificacion el proximo mes");
             }
 
         }
