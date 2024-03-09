@@ -51,6 +51,15 @@ namespace Punto1
             bool alcanzoobjetivo = venta1 + venta2 + venta3 >= objetivo;
             double bonificacion = alcanzoobjetivo ? 100000 : 0;
 
+            //Mostrar Resultado en pantalla
+
+            Console.Write("Dinero por comisiones: " + totalcomisiones);
+            Console.Write("Total Dinero recibido en el mes: " + (totalmes + bonificacion));
+            Console.Write("La venta que genero la mayor comision fue de: " + mayorcomision);
+            Console.Write("Promedio de comisiones por venta: " + (totalcomisiones / venta1, venta2, venta3));
+
+
+
 
 
 
