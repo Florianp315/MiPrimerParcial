@@ -28,6 +28,10 @@ namespace Punto1
             venta3 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("");
 
+            //Calculo de cmisiones y total de ventas
+            for (int i = 0; i < venta1; i++);
+            for (int i = 0; i < venta2; i++);
+            for (int i = 0; i < venta3; i++);
 
 
 
