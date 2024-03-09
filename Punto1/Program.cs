@@ -18,6 +18,18 @@ namespace Punto1
             //Entrada de datos
             Console.Write("Ingresa el valor de la primera venta del mes:");
             venta1 =Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("");
+
+            Console.Write("Ingresa el valor de la segunda venta del mes:");
+            venta2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("");
+
+            Console.Write("Ingresa el valor de la tercera venta del mes:");
+            venta3 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("");
+
+
+
 
         }
     }
