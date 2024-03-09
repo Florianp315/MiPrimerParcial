@@ -14,6 +14,11 @@ namespace Punto1
             double venta1, venta2, venta3;
             double totalcomisiones;
             double mayorcomision;
+
+            //Entrada de datos
+            Console.Write("Ingresa el valor de la primera venta del mes:");
+            venta1 =Convert.ToDouble(Console.ReadLine());
+
         }
     }
 }
